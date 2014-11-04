@@ -1,3 +1,38 @@
 /*
 Aqui escribe tu codigo de CSS.
 */
+div {	
+	/*border: solid;*/
+	border-radius: 20px;
+	width: 400px;
+	height: 300px;
+	color:blue;
+	margin: 10px 10px 10px 10px;
+	display: inline-table;
+	text-align: center;
+	vertical-align: center;
+	font-family: Arial;
+	color: white;
+	font-size: 10px;
+	text-shadow: 2px 2px 2px #000;
+}
+
+#searchEngine{
+	background-color: #71ACE6;
+}
+
+#inventario{
+	background-color:#B82EE6;
+
+}
+#portafolio{
+	background-color:#CF0053;
+}
+#battleship{
+	background-color: #004C00;
+}
+img{
+	height:40px;
+	
+
+}
