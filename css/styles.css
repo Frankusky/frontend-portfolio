@@ -53,7 +53,15 @@ div {
 		display: inline-table;
 }
 #battleship{
-	background-color: #B8E986;
+	background-color: #ab5600;
+		display: inline-table;
+}
+#adivinator{
+	background-color: #003366;
+		display: inline-table;
+}
+#correo{
+	background-color: #7cbb00;
 		display: inline-table;
 }
 

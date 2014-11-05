@@ -83,42 +83,4 @@ $(document).ready(function() {
 	$("#battleship").click(function(){
 		window.open('https://github.com/Frankusky/Proyecto-final')
 	});
-
-//Adivinador div
-	$('#adivinator').mouseenter(function() {
-		$(this).animate({
-			height: '+=80px',
-			width: "+=80px",
-		});
-		$("#textoAdi").show("slow");
-	});
-	$("#adivinator").mouseleave(function(){
-		$(this).animate({
-			height: "-=80px",
-			width: "-=80px"
-		});
-		$("#textoAdi").hide("slow");
-	});
-	$("#adivinator").click(function(){
-		window.open('https://github.com/Frankusky/Proyecto-adivinador')
-	});
-
-//Correo div
-	$('#correo').mouseenter(function() {
-		$(this).animate({
-			height: '+=80px',
-			width: "+=80px",
-		});
-		$("#textoCap").show("slow");
-	});
-	$("#correo").mouseleave(function(){
-		$(this).animate({
-			height: "-=80px",
-			width: "-=80px"
-		});
-		$("#textoCap").hide("slow");
-	});
-	$("#correo").click(function(){
-		window.open('https://github.com/Frankusky/Proyecto-enviar-correo')
-	});
 });
