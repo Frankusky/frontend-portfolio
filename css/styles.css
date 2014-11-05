@@ -1,38 +1,77 @@
 /*
 Aqui escribe tu codigo de CSS.
 */
+html, body {
+    height: 100%;
+}
+html {
+    display: table;
+    margin: auto;
+	background-color:#f9cc95;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
 div {	
-	/*border: solid;*/
+	float: center;
 	border-radius: 20px;
-	width: 400px;
-	height: 300px;
+	width: 40%;
+	height: auto;
 	color:blue;
-	margin: 10px 10px 10px 10px;
-	display: inline-table;
+	margin: .5% .5% .5% 5%;
 	text-align: center;
-	vertical-align: center;
 	font-family: Arial;
 	color: white;
 	font-size: 10px;
 	text-shadow: 2px 2px 2px #000;
+	align:auto float;
+	font-size:15px;
 }
-
+#logoImg{
+	display:inline;
+	}
+#logo2{
+	float:right;
+	text-align:right;
+	display:inline; 
+	white-space:nowrap
+}
 #searchEngine{
-	background-color: #71ACE6;
+	background-color: #4A90E2;
+		display: inline-table;
 }
 
 #inventario{
-	background-color:#B82EE6;
+	background-color:#BD10E0;
+		display: inline-table;
 
 }
 #portafolio{
-	background-color:#CF0053;
+	background-color:#D00241;
+		display: inline-table;
 }
 #battleship{
-	background-color: #004C00;
+	background-color: #B8E986;
+		display: inline-table;
 }
-img{
-	height:40px;
-	
 
+p{
+	display:none;
+	width:auto;
+	height: auto;
+	alignment:center;
+}
+
+#welcome{
+	font-size: 30px;
+	text-shadow: 2px 2px 2px #000;
+	color: #6AB0F2;
+	font-family:Comic Sans MS, Verdana;
+}
+#footer{
+	margin:auto;
+	color:#FFF;
+	font-family:Courier, Verdana;
 }
