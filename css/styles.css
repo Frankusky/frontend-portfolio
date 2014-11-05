@@ -29,14 +29,15 @@ div {
 	align:auto;
 	font-size:15px;
 }
-#logoImg{
+#imgLogo{
 	display:inline;
 	}
 #logo2{
 	float:right;
 	text-align:right;
 	display:inline; 
-	white-space:nowrap
+	white-space:nowrap;
+	margin:-10px;
 }
 #searchEngine{
 	background-color: #4A90E2;
@@ -82,4 +83,7 @@ p{
 	margin:auto;
 	color:#FFF;
 	font-family:Courier, Verdana;
+}
+a:link{
+	color:inherit;
 }

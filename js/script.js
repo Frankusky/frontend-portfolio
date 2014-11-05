@@ -8,6 +8,7 @@ $(document).ready(function() {
     }
 });
 
+
 //Search Engine div
 	$('#searchEngine').mouseenter(function() {
 		$(this).animate({
@@ -121,4 +122,13 @@ $(document).ready(function() {
 	$("#correo").click(function(){
 		window.open('https://github.com/Frankusky/Proyecto-enviar-correo')
 	});
+
+//footer div
+	$("#footer").hover(function(event){
+		$("#footer").effect( "bounce", "slow");
+	});
+	$("#footer").click(function(){
+		window.open('http://fb.me/Frankusky')
+	});
+	
 });
