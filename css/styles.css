@@ -20,13 +20,13 @@ div {
 	width: 40%;
 	height: auto;
 	color:blue;
-	margin: .5% .5% .5% 5%;
+	margin: 20px;
 	text-align: center;
 	font-family: Arial;
 	color: white;
 	font-size: 10px;
 	text-shadow: 2px 2px 2px #000;
-	align:auto float;
+	align:auto;
 	font-size:15px;
 }
 #logoImg{
