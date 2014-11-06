@@ -16,17 +16,19 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css
 
 <body>
 
-	<a href="http://cognits.co"><div id="imgLogo"><img src="images/cognits-logo.png" height=40px;/></div></a>
+	<a href="http://cognits.co"><div id="imgLogo"><img src="images/cognits-logo.png" height="40px" alt="Logo";/></div></a>
 	<div id="logo2"><font size=6>Cognits Students</font><br/>FRONT-END PADAWAN</div>
 
 	<br/><br/><br/><br/>
 	<p id="welcome"></div>
 	<script>
 var person = prompt("Please enter your name", "Cognits Staff");
-if (person != null) {
+if (person == "" ) {
     document.getElementById("welcome").innerHTML =
-    "Welcome <strong><font size=100px><font color=#f0911b><u><span style=\"font-variant:small-caps;\">" + person + "</span></u></font></font></strong> to Frank's Frontend Portafolio project!";
-}
+    "Welcome <strong><font size=100px><font color=#f0911b><u><span style=\"font-variant:small-caps;\"> Cognits Staff </span></u></font></font></strong> to Frank's Frontend Portafolio project!";}
+else if(person!=null){
+    document.getElementById("welcome").innerHTML =
+    "Welcome <strong><font size=100px><font color=#f0911b><u><span style=\"font-variant:small-caps;\">"+ person +"</span></u></font></font></strong> to Frank's Frontend Portafolio project!";}
 </script>
 
 <div id="searchEngine"><h1>Search engine</h1><p id="textoSea">This project consist in a program that takes two pages and ask you a word to find, then, it says which page have more occurences of that word and the number of occurences.</p></div>
