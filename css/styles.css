@@ -5,73 +5,97 @@ Aqui escribe tu codigo de CSS.
 html, body {
     height: 100%;
 }
+
 html {
     display: table;
     margin: auto;
 	background-color:#f9cc95;
+
 }
 
 body {
     display: table-cell;
     vertical-align: middle;
 }
+
 div {	
 	float: inherit;
-	border-radius: 20px;
-	width: 40%;
 	height: auto;
-
-	margin: 20px;
 	text-align: center;
 	font-family: Arial;
 	color: white;
-
 	text-shadow: 2px 2px 2px #000;
-
 	font-size:15px;
+	z-index:1;
 }
+
 #imgLogo{
 	display:inline;
+	margin-right:100px;
 	}
+	
 #logo2{
 	float:right;
 	text-align:right;
 	display:inline; 
 	white-space:nowrap;
-	margin:-10px;
+	margin:-30px;
 }
+
 #searchEngine{
 	background-color: #4A90E2;
-		display: inline-table;
+	display: inline-table;
+	margin: 20px;
+	border-radius: 20px;
+	width: 40%;
 }
 
 #inventario{
 	background-color:#BD10E0;
-		display: inline-table;
-
+	display: inline-table;
+	margin: 20px;
+	border-radius: 20px;
+	width: 40%;
 }
+
 #portafolio{
 	background-color:#D00241;
-		display: inline-table;
+	display: inline-table;
+	margin: 20px;
+	border-radius: 20px;
+	width: 40%;
 }
+
 #battleship{
 	background-color: #ab5600;
-		display: inline-table;
+	display: inline-table;
+	margin: 20px;
+	border-radius: 20px;
+	width: 40%;
 }
+
 #adivinator{
 	background-color: #003366;
-		display: inline-table;
+	display: inline-table;
+	margin: 20px;
+	border-radius: 20px;
+	width: 40%;
 }
+
 #correo{
 	background-color: #7cbb00;
-		display: inline-table;
+	display: inline-table;
+	margin: 20px;
+	border-radius: 20px;
+	width: 40%;
 }
 
 p{
 	display:none;
 	width:auto;
 	height: auto;
-	alignment:center;
+	text-align:justify;
+	padding: 0px 20px 0px 20px;
 }
 
 #welcome{
@@ -80,11 +104,25 @@ p{
 	color: #6AB0F2;
 	font-family:Comic Sans MS, Verdana;
 }
+
 #footer{
 	margin:auto;
 	color:#FFF;
 	font-family:Courier, Verdana;
+	width: 40%;
 }
+
 a:link{
 	color:inherit;
+}
+
+audio{
+	display: none;
+}
+
+.mario {
+	bottom:0;
+	position:absolute;
+	z-index:-1;
+	margin:0px 100px 0px 100px;;
 }

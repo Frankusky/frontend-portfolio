@@ -131,4 +131,20 @@ $(document).ready(function() {
 		window.open('http://fb.me/Frankusky')
 	});
 	
+//mario animation
+	var mario = $('.mario');
+	var width = $(window).width();
+	var height = mario.height();
+
+	mario.each(function foo() {
+	var left = (Math.random() * width) | 0;
+	var time = Math.random() * (800 - 400) + 5000 | 0;
+	while (left>(width-150)||left<150){
+		left = (Math.random() * width) | 0;
+	}
+
+    $(this).animate({
+        left: left,
+    }, time, foo);
+});
 });

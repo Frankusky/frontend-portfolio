@@ -5,8 +5,7 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css
  -->
 <html>
 <head>
-	<style type="text/css">html,a:hover {cursor: url(http://cur.cursors-4u.net/anime/ani-12/ani1162.ani), url(http://cur.cursors-4u.net/anime/ani-12/ani1162.gif), progress !important;}</style>
-
+	<style type="text/css">html,a:hover {cursor: url(images/gam62.cur), url(images/gam62.cur), progress !important;}</style>
 	<title>Frank's Frontend Portafolio</title>
 	<link rel='stylesheet' type='text/css' href='css/styles.css'/>
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -15,33 +14,35 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css
 </head>
 
 <body>
-
+	<audio controls autoplay loop>
+		<source src="background-music.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	</audio>
 	<a href="http://cognits.co"><div id="imgLogo"><img src="images/cognits-logo.png" height="40px" alt="Logo";/></div></a>
-	<div id="logo2"><font size=6>Cognits Students</font><br/>FRONT-END PADAWAN</div>
-
-	<br/><br/><br/><br/>
+	<div id="logo2">
+		<h1>Cognits Students</h1>
+		FRONT-END PADAWAN
+	</div>
 	<p id="welcome"></div>
 	<script>
-var person = prompt("Please enter your name", "Cognits Staff");
-if (person == "" ) {
-    document.getElementById("welcome").innerHTML =
-    "Welcome <strong><font size=100px><font color=#f0911b><u><span style=\"font-variant:small-caps;\"> Cognits Staff </span></u></font></font></strong> to Frank's Frontend Portafolio project!";}
-else if(person!=null){
-    document.getElementById("welcome").innerHTML =
-    "Welcome <strong><font size=100px><font color=#f0911b><u><span style=\"font-variant:small-caps;\">"+ person +"</span></u></font></font></strong> to Frank's Frontend Portafolio project!";}
-</script>
+		var person = prompt("Please enter your name", "Cognits Staff");
+		if (person == "" ) {
+			document.getElementById("welcome").innerHTML =
+			"Welcome <strong><font size=100px><font color=#f0911b><u><span style=\"font-variant:small-caps;\"> Cognits Staff </span></u></font></font></strong> to Frank's Frontend Portafolio project!";}
+		else if(person!=null){
+			document.getElementById("welcome").innerHTML =
+			"Welcome <strong><font size=100px><font color=#f0911b><u><span style=\"font-variant:small-caps;\">"+ person +"</span></u></font></font></strong> to Frank's Frontend Portafolio project!";}
+	</script>
 
-<div id="searchEngine"><h1>Search engine</h1><p id="textoSea">This project consist in a program that takes two pages and ask you a word to find, then, it says which page have more occurences of that word and the number of occurences.</p></div>
-<div id="inventario"><h1>Inventory</h1><p id="textoInv"> This project simulates an inventory program that logs the amount of items in storage. It can also sell items, drop it from the inventory and make a discount to the buyer if he have a member card.</p></div>
-<br>
-<div id="portafolio"><h1>This Portfolio</h1><p id="textoPor">Proyect that shows an example of what we have learned of HTML, Css, Javascript and JQuery! </p></div>
-<div id="battleship"><h1>Battleship</h1><p id="textoBat">This is the proyect that I like more! A battleship game for one or two players!</p></div>
-<br>
-<div id="adivinator"><h1>Guess the number</h1><p id="textoAdi">Try to guess a random number between 1 to 1000</p></div>
-<div id="correo"><h1>Country and capital</h1><p id ="textoCap">A project that ask you a country and his capital, when input have ended, you can send the results to an email.</p></div>
-<div id="footer">Copyright © 2014 Frank Sam Hu (fsh1991@hotmail.com)</div>
+	<div id="searchEngine"><h1>Search engine</h1><p id="textoSea">This project consist in a program that takes two pages and ask you a word to find, then, it says which page have more occurences of that word and the number of occurences.</p></div>
+	<div id="inventario"><h1>Inventory</h1><p id="textoInv"> This project simulates an inventory program that logs the amount of items in storage. It can also sell items, drop it from the inventory and make a discount to the buyer if he have a member card.</p></div>
+	<br>
+	<div id="portafolio"><h1>This Portfolio</h1><p id="textoPor">Proyect that shows an example of what we have learned of HTML, Css, Javascript and JQuery! </p></div>
+	<div id="battleship"><h1>Battleship</h1><p id="textoBat">This is the proyect that I like more! A battleship game for one or two players! You have to shrink your opponent's boats that are hidden in a table of 10x10 spaces. There are 5 boats of diferent length.</p></div>
+	<br>
+	<div id="adivinator"><h1>Guess the number</h1><p id="textoAdi">Try to guess a number that its generated randomly between 1 to 1000. You have 10 lifes to guess it!</p></div>
+	<div id="correo"><h1>Country and capital</h1><p id ="textoCap">A project that ask you a country and his capital, when input have ended, you can send the results to an email.</p></div>
+	<div id="footer">Copyright © 2014 Frank Sam Hu (fsh1991@hotmail.com)</div>
+	<div class="mario"><img src="http://img4.wikia.nocookie.net/__cb20130626055021/unmario/images/c/c8/Dancing_mario.gif" alt="Mario"/></div>
 </body>
-
-
-
 </html>
