@@ -44,7 +44,7 @@ $(document).ready(function() {
 		$(".textoInv").hide("slow");
 	});
 	$(".inventario").click(function(){
-		window.open('https://github.com/Frankusky/MotorBusqueda')
+		window.open('https://github.com/Frankusky/Proyecto-maquina')
 	});
 	
 //This portafolio div
