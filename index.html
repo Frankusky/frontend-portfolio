@@ -18,13 +18,16 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css
 		<source src="background-music.mp3" type="audio/mpeg">
 		Your browser does not support the audio element.
 	</audio>
-	<a href="http://cognits.co"><div id="imgLogo"><img src="images/cognits-logo.png" height="40px" alt="Logo";/></div></a>
-	<div id="logo2">
+	<a href="http://cognits.co"><div class="imgLogo"><img src="images/cognits-logo.png" height="40" alt="Logo"/></div></a>
+	<div class="logo2">
 		<h1>Cognits Students</h1>
 		FRONT-END PADAWAN
 	</div>
-	<p id="welcome"></div>
+		<br/>
+	<p id="welcome" class="classWelcome"></p>
+		<br/>
 	<script>
+
 		var person = prompt("Please enter your name", "Cognits Staff");
 		if (person == "" ) {
 			document.getElementById("welcome").innerHTML =
@@ -32,17 +35,19 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css
 		else if(person!=null){
 			document.getElementById("welcome").innerHTML =
 			"Welcome <strong><font size=100px><font color=#f0911b><u><span style=\"font-variant:small-caps;\">"+ person +"</span></u></font></font></strong> to Frank's Frontend Portafolio project!";}
+		
 	</script>
 
-	<div id="searchEngine"><h1>Search engine</h1><p id="textoSea">This project consist in a program that takes two pages and ask you a word to find, then, it says which page have more occurences of that word and the number of occurences.</p></div>
-	<div id="inventario"><h1>Inventory</h1><p id="textoInv"> This project simulates an inventory program that logs the amount of items in storage. It can also sell items, drop it from the inventory and make a discount to the buyer if he have a member card.</p></div>
+	<div class="searchEngine"><h1>Search engine</h1><p class="textoSea">This project consist in a program that takes two pages and ask you a word to find, then, it says which page have more occurences of that word and the number of occurences.</p></div>
+	<div class="inventario"><h1>Inventory</h1><p class="textoInv"> This project simulates an inventory program that logs the amount of items in storage. It can also sell items, drop it from the inventory and make a discount to the buyer if he have a member card.</p></div>
 	<br>
-	<div id="portafolio"><h1>This Portfolio</h1><p id="textoPor">Proyect that shows an example of what we have learned of HTML, Css, Javascript and JQuery! </p></div>
-	<div id="battleship"><h1>Battleship</h1><p id="textoBat">This is the proyect that I like more! A battleship game for one or two players! You have to shrink your opponent's boats that are hidden in a table of 10x10 spaces. There are 5 boats of diferent length.</p></div>
+	<div class="portafolio"><h1>This Portfolio</h1><p class="textoPor">Proyect that shows an example of what we have learned of HTML, Css, Javascript and JQuery! </p></div>
+	<div class="battleship"><h1>Battleship</h1><p class="textoBat">This is the proyect that I like more! A battleship game for one or two players! You have to shrink your opponent's boats that are hclassden in a table of 10x10 spaces. There are 5 boats of diferent length.</p></div>
 	<br>
-	<div id="adivinator"><h1>Guess the number</h1><p id="textoAdi">Try to guess a number that its generated randomly between 1 to 1000. You have 10 lifes to guess it!</p></div>
-	<div id="correo"><h1>Country and capital</h1><p id ="textoCap">A project that ask you a country and his capital, when input have ended, you can send the results to an email.</p></div>
-	<div id="footer">Copyright © 2014 Frank Sam Hu <br/>(fsh1991@hotmail.com)</div>
+	<div class="adivinator"><h1>Guess the number</h1><p class="textoAdi">Try to guess a number that its generated randomly between 1 to 1000. You have 10 lifes to guess it!</p></div>
+	<div class="correo"><h1>Country and capital</h1><p class ="textoCap">A project that ask you a country and his capital, when input have ended, you can send the results to an email.</p></div>
+	<br/>
+	<div class="footer">Copyright © 2014 Frank Sam Hu <br/>(fsh1991@hotmail.com)</div>
 	<div class="mario"><img src="images/ezgif.com-resize.gif" alt="Mario"/></div>
 </body>
 </html>

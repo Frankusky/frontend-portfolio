@@ -18,10 +18,11 @@ body {
     vertical-align: middle;
 }
 
-div {	
+div{	
 	float: inherit;
 	height: auto;
 	text-align: center;
+	display: inline-table;
 	font-family: Arial;
 	color: white;
 	text-shadow: 2px 2px 2px #000;
@@ -29,62 +30,62 @@ div {
 	z-index:1;
 }
 
-#imgLogo{
+.imgLogo{
 	display:inline;
 	margin-right:100px;
 	}
 	
-#logo2{
+.logo2{
 	float:right;
 	text-align:right;
-	display:inline; 
+
 	white-space:nowrap;
 	margin:-30px;
 }
 
-#searchEngine{
+.searchEngine{
 	background-color: #4A90E2;
-	display: inline-table;
+	
 	margin: 20px;
 	border-radius: 20px;
 	width: 40%;
 }
 
-#inventario{
+.inventario{
 	background-color:#BD10E0;
-	display: inline-table;
+	
 	margin: 20px;
 	border-radius: 20px;
 	width: 40%;
 }
 
-#portafolio{
+.portafolio{
 	background-color:#D00241;
-	display: inline-table;
+	
 	margin: 20px;
 	border-radius: 20px;
 	width: 40%;
 }
 
-#battleship{
+.battleship{
 	background-color: #ab5600;
-	display: inline-table;
+	
 	margin: 20px;
 	border-radius: 20px;
 	width: 40%;
 }
 
-#adivinator{
+.adivinator{
 	background-color: #003366;
-	display: inline-table;
+	
 	margin: 20px;
 	border-radius: 20px;
 	width: 40%;
 }
 
-#correo{
+.correo{
 	background-color: #7cbb00;
-	display: inline-table;
+	
 	margin: 20px;
 	border-radius: 20px;
 	width: 40%;
@@ -95,18 +96,20 @@ p{
 	width:auto;
 	height: auto;
 	text-align:justify;
-	padding: 0px 20px 0px 20px;
+	padding-right: 20px;
+	padding-left: 20px;
 }
 
-#welcome{
+.classWelcome{
 	font-size: 30px;
 	text-shadow: 2px 2px 2px #000;
 	color: #6AB0F2;
 	font-family:Comic Sans MS, Verdana;
+	
 }
 
-#footer{
-	margin:auto;
+.footer{
+	margin-left:35%;
 	color:#FFF;
 	font-family:Courier, Verdana;
 	width: auto;
@@ -121,8 +124,10 @@ audio{
 }
 
 .mario {
-	bottom:0;
+	top:0;
 	position:absolute;
 	z-index:-1;
-	margin:0px 100px 0px 100px;;
+	margin-right: 100px;
+	margin-left: 100px;
 }
+

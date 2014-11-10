@@ -5,129 +5,129 @@ $(document).ready(function() {
         case 3:
             alert('Wops. Right click disabled! Don\'t hate me! :( ');
             break;
-    }
-});
+    	}
+	});
 
 
 //Search Engine div
-	$('#searchEngine').mouseenter(function() {
+	$('.searchEngine').mouseenter(function() {
 		$(this).animate({
 			height: '+=80px',
 			width: "+=80px",
 		});
-		$("#textoSea").show("slow");
+		$(".textoSea").show("slow");
 	});
-	$("#searchEngine").mouseleave(function(){
+	$(".searchEngine").mouseleave(function(){
 		$(this).animate({
 			height: "-=80px",
 			width: "-=80px"
 		});
-		$("#textoSea").hide("slow");
+		$(".textoSea").hide("slow");
 	});
-	$("#searchEngine").click(function(){
+	$(".searchEngine").click(function(){
 		window.open('https://github.com/Frankusky/MotorBusqueda')
 	});
 	
 //Inventory div
-	$('#inventario').mouseenter(function() {
+	$('.inventario').mouseenter(function() {
 		$(this).animate({
 			height: '+=80px',
 			width: "+=80px",
 		});
-		$("#textoInv").show("slow");
+		$(".textoInv").show("slow");
 	});
-	$("#inventario").mouseleave(function(){
+	$(".inventario").mouseleave(function(){
 		$(this).animate({
 			height: "-=80px",
 			width: "-=80px"
 		});
-		$("#textoInv").hide("slow");
+		$(".textoInv").hide("slow");
 	});
-	$("#inventario").click(function(){
+	$(".inventario").click(function(){
 		window.open('https://github.com/Frankusky/MotorBusqueda')
 	});
 	
 //This portafolio div
-	$('#portafolio').mouseenter(function() {
+	$('.portafolio').mouseenter(function() {
 		$(this).animate({
 			height: '+=80px',
 			width: "+=80px",
 		});
-		$("#textoPor").show("slow");
+		$(".textoPor").show("slow");
 	});
-	$("#portafolio").mouseleave(function(){
+	$(".portafolio").mouseleave(function(){
 		$(this).animate({
 			height: "-=80px",
 			width: "-=80px"
 		});
-		$("#textoPor").hide("slow");
+		$(".textoPor").hide("slow");
 	});
-	$("#portafolio").click(function(){
+	$(".portafolio").click(function(){
 		window.open('https://github.com/Frankusky/frontend-portfolio')
 	});
 	
 //battleship div
-	$('#battleship').mouseenter(function() {
+	$('.battleship').mouseenter(function() {
 		$(this).animate({
 			height: '+=80px',
 			width: "+=80px",
 		});
-		$("#textoBat").show("slow");
+		$(".textoBat").show("slow");
 	});
-	$("#battleship").mouseleave(function(){
+	$(".battleship").mouseleave(function(){
 		$(this).animate({
 			height: "-=80px",
 			width: "-=80px"
 		});
-		$("#textoBat").hide("slow");
+		$(".textoBat").hide("slow");
 	});
-	$("#battleship").click(function(){
+	$(".battleship").click(function(){
 		window.open('https://github.com/Frankusky/Proyecto-final')
 	});
 
 //Adivinador div
-	$('#adivinator').mouseenter(function() {
+	$('.adivinator').mouseenter(function() {
 		$(this).animate({
 			height: '+=80px',
 			width: "+=80px",
 		});
-		$("#textoAdi").show("slow");
+		$(".textoAdi").show("slow");
 	});
-	$("#adivinator").mouseleave(function(){
+	$(".adivinator").mouseleave(function(){
 		$(this).animate({
 			height: "-=80px",
 			width: "-=80px"
 		});
-		$("#textoAdi").hide("slow");
+		$(".textoAdi").hide("slow");
 	});
-	$("#adivinator").click(function(){
+	$(".adivinator").click(function(){
 		window.open('https://github.com/Frankusky/Proyecto-adivinador')
 	});
 
 //Correo div
-	$('#correo').mouseenter(function() {
+	$('.correo').mouseenter(function() {
 		$(this).animate({
 			height: '+=80px',
 			width: "+=80px",
 		});
-		$("#textoCap").show("slow");
+		$(".textoCap").show("slow");
 	});
-	$("#correo").mouseleave(function(){
+	$(".correo").mouseleave(function(){
 		$(this).animate({
 			height: "-=80px",
 			width: "-=80px"
 		});
-		$("#textoCap").hide("slow");
+		$(".textoCap").hide("slow");
 	});
-	$("#correo").click(function(){
+	$(".correo").click(function(){
 		window.open('https://github.com/Frankusky/Proyecto-enviar-correo')
 	});
 
 //footer div
-	$("#footer").hover(function(event){
-		$("#footer").effect( "bounce", "slow");
+	$(".footer").hover(function(event){
+		$(".footer").effect( "bounce", "slow");
 	});
-	$("#footer").click(function(){
+	$(".footer").click(function(){
 		window.open('http://fb.me/Frankusky')
 	});
 	
