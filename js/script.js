@@ -25,7 +25,7 @@ $(document).ready(function() {
 		$(".textoSea").hide("slow");
 	});
 	$(".searchEngine").click(function(){
-		window.open('https://github.com/Frankusky/MotorBusqueda')
+		window.open('https://github.com/Frankusky/python-search-engine')
 	});
 	
 //Inventory div
@@ -44,7 +44,7 @@ $(document).ready(function() {
 		$(".textoInv").hide("slow");
 	});
 	$(".inventario").click(function(){
-		window.open('https://github.com/Frankusky/Proyecto-maquina')
+		window.open('https://github.com/Frankusky/python-maquina-registradora')
 	});
 	
 //This portafolio div
@@ -82,7 +82,7 @@ $(document).ready(function() {
 		$(".textoBat").hide("slow");
 	});
 	$(".battleship").click(function(){
-		window.open('https://github.com/Frankusky/Proyecto-final')
+		window.open('https://github.com/Frankusky/python-batalla-naval')
 	});
 
 //Adivinador div
@@ -101,7 +101,7 @@ $(document).ready(function() {
 		$(".textoAdi").hide("slow");
 	});
 	$(".adivinator").click(function(){
-		window.open('https://github.com/Frankusky/Proyecto-adivinador')
+		window.open('https://github.com/Frankusky/python-guess-number')
 	});
 
 //Correo div
@@ -120,7 +120,7 @@ $(document).ready(function() {
 		$(".textoCap").hide("slow");
 	});
 	$(".correo").click(function(){
-		window.open('https://github.com/Frankusky/Proyecto-enviar-correo')
+		window.open('https://github.com/Frankusky/python-paises-capitales')
 	});
 
 //footer div
